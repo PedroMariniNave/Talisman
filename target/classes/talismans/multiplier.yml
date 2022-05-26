@@ -1,0 +1,20 @@
+Talisman-Settings:
+  multiplier-chance: 5 # porcentagem
+  max-multiplier: 4
+
+Multiplier-Title:
+  enabled: true
+  title: ''
+  subtitle: '&a+{amount} spawners ({multiplier}x)'
+
+Multiplier-Message:
+  enabled: true
+  message: '&7Seu &fTalismã Multiplicador &7multiplicou os spawners em &f{multiplier}x&7! Você recebeu &f{amount} &7spawners a mais.'
+
+Item:
+  type: SKULL_ITEM
+  owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBjNDUyOGU2MjJiZDMxODcyMGQzOGUwZTQ1OTllNjliZjIzMzA4Zjg5NjkzOTIwZTBlNGVjYjU1ZDFjMGJhYyJ9fX0=
+  name: '&6Talismã Multiplicador'
+  lore:
+    - '&7Esse &ftalismã &7fornece a &fchance &7de'
+    - '&fmultiplicar &7seus &fspawners &7adquiridos!'

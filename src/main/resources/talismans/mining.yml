@@ -1,0 +1,16 @@
+Talisman-Settings:
+  dig-speed-level: 1
+  compatible-items:
+    - 'DIAMOND_PICKAXE'
+    - 'IRON_PICKAXE'
+    - 'GOLD_PICKAXE'
+    - 'STONE_PICKAXE'
+    - 'WOOD_PICKAXE'
+
+Item:
+  type: SKULL_ITEM
+  owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAzNzYyNTRkNTczNWFiMTU2N2IzZjg3YzdmYmRlNDFkZmM0MTYyMmI2NTEwYjY2N2Q4MmM5ZWZlOGE1Y2VkMSJ9fX0=
+  name: '&eTalismã de Mineração'
+  lore:
+    - '&7Esse &ftalismã &7fornece o efeito &fPressa'
+    - '&7enquanto estiver segurando uma &fpicareta&7!'

@@ -1,0 +1,21 @@
+Talisman-Settings:
+  cashback-chance: 15 # porcentagem
+  max-cashback: 30 # porcentagem
+
+Cashback-Title:
+  enabled: true
+  title: ''
+  subtitle: '&a+&2$&a{amount}'
+
+Cashback-Message:
+  enabled: true
+  message: '&7Seu &fTalismã da Sorte &7garantiu &f{percentage}% &7de &fCashback&7! Você recebeu &2$&a{amount} &7de volta.'
+
+Item:
+  type: SKULL_ITEM
+  owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNjMjQ3YjBkODJkZDg3MTQ4Yzk2NTZhNDJlMDI0MDcwYzQ1OTcwZTExNDlmZGM1NTNlZjYzNjBmMjc5OWM2YyJ9fX0=
+  name: '&aTalismã da Sorte'
+  lore:
+    - '&7Esse &ftalismã &7fornece a &fchance &7de'
+    - '&fdevolver &7parte do seu &fdinheiro'
+    - '&7gasto em &fspawners&7!'

@@ -1,0 +1,133 @@
+Inventory:
+  title: 'Talismãs'
+  size: 36
+  items:
+    1:
+      action: WITHDRAW
+      slot: 4
+      type: SKULL_ITEM
+      owner: '{player}'
+      name: '&a{player}'
+      lore:
+        - '&7Abaixo estão suas informações:'
+        - ''
+        - ' &8▶ &7Fragmentos de Talismã: &f{fragments_amount}'
+        - ''
+        - '&7Clique para retirar!'
+    2:
+      slot: 21
+      talisman: MINING
+      unlock-price: 50
+      locked:
+        type: SKULL_ITEM
+        owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        name: '&cTalismã de Mineração'
+        lore:
+          - '&7Esse &ftalismã &7fornece o efeito &fPressa'
+          - '&7enquanto estiver segurando uma &fpicareta&7!'
+          - ''
+          - ' &8▶ &7Status: &cBloqueado'
+          - ' &8▶ &7Custo: &f{unlock_price} &7fragmentos'
+          - ''
+          - '&7Clique para desbloquear esse talismã!'
+      enabled:
+        type: SKULL_ITEM
+        owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAzNzYyNTRkNTczNWFiMTU2N2IzZjg3YzdmYmRlNDFkZmM0MTYyMmI2NTEwYjY2N2Q4MmM5ZWZlOGE1Y2VkMSJ9fX0=
+        name: '&eTalismã de Mineração'
+        lore:
+          - '&7Esse &ftalismã &7fornece o efeito &fPressa'
+          - '&7enquanto estiver segurando uma &fpicareta&7!'
+          - ''
+          - ' &8▶ &7Status: &aAtivado'
+          - ''
+          - '&7Clique para &fdesativar &7esse talismã!'
+      disabled:
+        type: SKULL_ITEM
+        owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODAzNzYyNTRkNTczNWFiMTU2N2IzZjg3YzdmYmRlNDFkZmM0MTYyMmI2NTEwYjY2N2Q4MmM5ZWZlOGE1Y2VkMSJ9fX0=
+        name: '&eTalismã de Mineração'
+        lore:
+          - '&7Esse &ftalismã &7fornece o efeito &fPressa'
+          - '&7enquanto estiver segurando uma &fpicareta&7!'
+          - ''
+          - ' &8▶ &7Status: &cDesativado'
+          - ''
+          - '&7Clique para &fativar &7esse talismã!'
+    3:
+      slot: 22
+      talisman: LUCK
+      unlock-price: 100
+      locked:
+        type: SKULL_ITEM
+        owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        name: '&cTalismã da Sorte'
+        lore:
+          - '&7Esse &ftalismã &7fornece a &fchance &7de'
+          - '&fdevolver &7parte do seu &fdinheiro'
+          - '&7gasto em &fspawners&7!'
+          - ''
+          - ' &8▶ &7Status: &cBloqueado'
+          - ' &8▶ &7Custo: &f{unlock_price} &7fragmentos'
+          - ''
+          - '&7Clique para desbloquear esse talismã!'
+      enabled:
+        type: SKULL_ITEM
+        owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNjMjQ3YjBkODJkZDg3MTQ4Yzk2NTZhNDJlMDI0MDcwYzQ1OTcwZTExNDlmZGM1NTNlZjYzNjBmMjc5OWM2YyJ9fX0=
+        name: '&aTalismã da Sorte'
+        lore:
+          - '&7Esse &ftalismã &7fornece a &fchance &7de'
+          - '&fdevolver &7parte do seu &fdinheiro'
+          - '&7gasto em &fspawners&7!'
+          - ''
+          - ' &8▶ &7Status: &aAtivado'
+          - ''
+          - '&7Clique para &fdesativar &7esse talismã!'
+      disabled:
+        type: SKULL_ITEM
+        owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTNjMjQ3YjBkODJkZDg3MTQ4Yzk2NTZhNDJlMDI0MDcwYzQ1OTcwZTExNDlmZGM1NTNlZjYzNjBmMjc5OWM2YyJ9fX0=
+        name: '&aTalismã da Sorte'
+        lore:
+          - '&7Esse &ftalismã &7fornece a &fchance &7de'
+          - '&fdevolver &7parte do seu &fdinheiro'
+          - '&7gasto em &fspawners&7!'
+          - ''
+          - ' &8▶ &7Status: &cDesativado'
+          - ''
+          - '&7Clique para &fativar &7esse talismã!'
+    4:
+      slot: 23
+      talisman: MULTIPLIER
+      unlock-price: 250
+      locked:
+        type: SKULL_ITEM
+        owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VkMWFiYTczZjYzOWY0YmM0MmJkNDgxOTZjNzE1MTk3YmUyNzEyYzNiOTYyYzk3ZWJmOWU5ZWQ4ZWZhMDI1In19fQ==
+        name: '&cTalismã Multiplicador'
+        lore:
+          - '&7Esse &ftalismã &7fornece a &fchance &7de'
+          - '&fmultiplicar &7seus &fspawners &7adquiridos!'
+          - ''
+          - ' &8▶ &7Status: &cBloqueado'
+          - ' &8▶ &7Custo: &f{unlock_price} &7fragmentos'
+          - ''
+          - '&7Clique para desbloquear esse talismã!'
+      enabled:
+        type: SKULL_ITEM
+        owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBjNDUyOGU2MjJiZDMxODcyMGQzOGUwZTQ1OTllNjliZjIzMzA4Zjg5NjkzOTIwZTBlNGVjYjU1ZDFjMGJhYyJ9fX0=
+        name: '&6Talismã Multiplicador'
+        lore:
+          - '&7Esse &ftalismã &7fornece a &fchance &7de'
+          - '&fmultiplicar &7seus &fspawners &7adquiridos!'
+          - ''
+          - ' &8▶ &7Status: &aAtivado'
+          - ''
+          - '&7Clique para &fdesativar &7esse talismã!'
+      disabled:
+        type: SKULL_ITEM
+        owner: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBjNDUyOGU2MjJiZDMxODcyMGQzOGUwZTQ1OTllNjliZjIzMzA4Zjg5NjkzOTIwZTBlNGVjYjU1ZDFjMGJhYyJ9fX0=
+        name: '&6Talismã Multiplicador'
+        lore:
+          - '&7Esse &ftalismã &7fornece a &fchance &7de'
+          - '&fmultiplicar &7seus &fspawners &7adquiridos!'
+          - ''
+          - ' &8▶ &7Status: &cDesativado'
+          - ''
+          - '&7Clique para &fativar &7esse talismã!'
